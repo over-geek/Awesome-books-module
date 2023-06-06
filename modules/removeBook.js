@@ -1,6 +1,6 @@
 import StoreBookData from './bookData.js';
 
-function removeBook(e) {
+const removeBook = (e) => {
   const dash = document.getElementById('dash');
   const bookCollection = StoreBookData.getBooksData();
   if (e.target.className === 'remove-btn') {
