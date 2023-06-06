@@ -12,6 +12,6 @@ const removeBook = (e) => {
     e.target.parentNode.parentNode.remove();
     localStorage.setItem('data', JSON.stringify(newArray));
   }
-}
+};
 
 export default removeBook;
